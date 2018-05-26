@@ -1,3 +1,9 @@
 body{
-    background: $bg-color;
+    background-color: $bg-color;
+}
+
+.paper{
+    background: #fff;
+    box-shadow: 0px 10px 15px transparentize($color: #000000, $amount: 0.68);
+    margin: 48px auto;
 }
