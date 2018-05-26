@@ -1,12 +1,118 @@
 <template>
-  <section>
-    <h2>Lorem ipsum dolor sit</h2>
-    <p>Reprehenderit dolore laboris incididunt occaecat consectetur tempor. Reprehenderit esse enim ipsum id enim nisi irure esse mollit fugiat ullamco culpa ex. Veniam quis laborum exercitation excepteur pariatur quis amet fugiat ullamco deserunt esse. Non nisi labore deserunt eiusmod veniam excepteur mollit occaecat commodo. Ullamco Lorem culpa sunt sint.</p>
-    <p>Incididunt adipisicing exercitation deserunt aliquip proident et dolore. Eu sit incididunt nulla exercitation proident laborum esse. Minim adipisicing aliquip sint id do sint officia aliquip ipsum deserunt elit. Aliqua aliqua aute veniam aute ea Lorem voluptate. Adipisicing enim duis proident in voluptate. Non Lorem aliqua commodo veniam culpa incididunt duis reprehenderit sunt dolor anim exercitation sunt. Officia nulla dolore proident aliqua est.</p>
-    <p>Ipsum eu laboris pariatur ut ex consectetur excepteur eu. Occaecat ullamco commodo nulla non aliquip occaecat consequat enim anim exercitation duis anim. Dolor proident amet excepteur ex ut fugiat laborum labore enim. Excepteur nulla ipsum ipsum consequat amet aliqua reprehenderit nulla officia dolore excepteur. In veniam tempor fugiat labore mollit amet irure. Adipisicing laboris commodo irure ea ex.</p>
-    <p>Lorem culpa nostrud labore do in ad. Amet velit pariatur dolore eu sunt consequat eiusmod amet nostrud dolor dolor. Voluptate reprehenderit ipsum pariatur officia est amet qui. Anim sint irure officia cupidatat cupidatat anim. Labore duis voluptate enim nulla non ipsum sunt minim amet mollit dolor.</p>
-    <p>Pollit minim do dolore minim in. Cupidatat minim adipisicing laborum ullamco. Ipsum enim velit in ut officia ea quis veniam. Officia veniam voluptate est Lorem amet veniam. Nisi veniam et sit esse reprehenderit tempor et exercitation officia amet tempor adipisicing nulla. Nostrud aute ut ullamco aliqua anim mollit laboris nulla voluptate. Occaecat incididunt ullamco Lorem enim proident fugiat nostrud deserunt laboris cupidatat.</p>
-  </section>
+  <div>
+    <section id='sobre'>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="heading">Sobre</h2>
+          <p>Reprehenderit dolore laboris incididunt occaecat consectetur tempor. Reprehenderit esse enim ipsum id enim nisi irure esse mollit fugiat ullamco culpa ex. Veniam quis laborum exercitation excepteur pariatur quis amet fugiat ullamco deserunt esse. Non nisi labore deserunt eiusmod veniam excepteur mollit occaecat commodo. Ullamco Lorem culpa sunt sint.</p>
+          <div class="row">
+            <div class="col-6">
+              <h4>Our Vision</h4>
+              <p>Incididunt adipisicing exercitation deserunt aliquip proident et dolore. Eu sit incididunt nulla exercitation proident laborum esse.</p>
+            </div>
+            <div class="col-6">
+              <h4>Our Mission</h4>
+              <p>Incididunt adipisicing exercitation deserunt aliquip proident et dolore.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <h4>Awards</h4>
+              <p>Incididunt adipisicing exercitation deserunt aliquip proident et dolore.</p>
+            </div>
+            <div class="col-6">
+              <h4>Perfection</h4>
+              <p>Nulla reprehenderit minim excepteur qui et consequat qui.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="inverse">
+        <div class="container">
+          <h2 class="heading">Services</h2>
+          <div class="row">
+            <div class="col">
+              <h4>Service 1</h4>
+              <p>Fugiat officia irure elit eu in veniam est adipisicing ea cillum ipsum.</p>
+            </div>
+            <div class="col">
+              <h4>Service 2</h4>
+              <p>Fugiat officia irure elit eu in veniam est adipisicing ea cillum ipsum.</p>
+            </div>
+            <div class="col">
+              <h4>Service 3</h4>
+              <p>Fugiat officia irure elit eu in veniam est adipisicing ea cillum ipsum.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="inverse green">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <div class="count">
+                178 <small>Condomínios</small>
+              </div>
+            </div>
+            <div class="col">
+              <div class="count">
+                2 mil <small>Moradores</small>
+              </div>
+            </div>
+            <div class="col">
+              <div class="count">
+                60 <small>Parceiros e Serviços</small>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="gray">
+      <div class="container">
+        <h2 class="heading">Fale conosco</h2>
+        <div class="row">
+          <div class="col">
+            <b-form>
+              <b-form-group id="exampleInputGroup1"
+                            label-for="exampleInput1">
+                <b-form-input id="exampleInput1"
+                              type="email"
+                              v-model="form.email"
+                              required
+                              placeholder="Enter email">
+                </b-form-input>
+              </b-form-group>
+              <b-form-group id="exampleInputGroup2"
+                            label-for="exampleInput2">
+                <b-form-input id="exampleInput2"
+                              type="text"
+                              v-model="form.name"
+                              required
+                              placeholder="Enter name">
+                </b-form-input>
+              </b-form-group>
+              <b-form-group id="exampleInputGroup3"
+                            label-for="exampleInput3">
+                <b-form-textarea id="exampleInput3"
+                              type="text"
+                              v-model="form.msg"
+                              required
+                              placeholder="Enter Message"
+                              :rows="3"
+                              :max-rows="6">
+                </b-form-textarea>
+              </b-form-group>
+              <b-button type="submit" variant="primary">Submit</b-button>
+              <b-button type="reset">Reset</b-button>
+            </b-form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
@@ -14,7 +120,11 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      form: {
+        email: '',
+        name: '',
+        msg: null
+      }
     }
   }
 }

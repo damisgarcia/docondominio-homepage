@@ -1,23 +1,22 @@
 <template>
   <div id="app">
-    <div class="container">
-      <div class="paper">
-        <LandPageHeader/>
-        <LandPageContent/>
-      </div>
-    </div>
+    <LandPageHeader/>
+    <LandPageContent/>
+    <LandPageFooter/>
   </div>
 </template>
 
 <script>
 import LandPageContent from './components/LandPageContent'
 import LandPageHeader from './components/LandPageHeader'
+import LandPageFooter from './components/LandPageFooter'
 
 export default {
   name: 'App',
   components: {
     LandPageHeader,
-    LandPageContent
+    LandPageContent,
+    LandPageFooter
   }
 }
 </script>

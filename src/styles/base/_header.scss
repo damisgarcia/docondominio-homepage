@@ -1,22 +1,38 @@
+.b-navigation{    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: white;
+    min-height: 64px;    
+    .nav{
+        font-size: 14px;
+        .nav-link {
+            text-transform: uppercase;
+            margin: auto 4px;
+            &.active{
+                @include opensans_bold;
+            }
+        }
+    }
+}
+
 .landpage-header{
-    @include opensans_light;    
+    @include opensans_light; 
+    background-size: cover;
+    background-position: center center;   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     position: relative;
-    height: 400px;
+    height: 420px;
     color: white;
-    padding: 36px 8px;
+    padding: 48px 8px;
     user-select: none;
-    .logo{
-        display: block;
-        max-width: 100%;
-        margin: 0px auto -12px;
-    }
     .title{
-        font-size: 24px;
+        font-size: 36px;
         text-align: center;
+        margin-top: 72px;
     }
     .devices{
         position: absolute;
@@ -25,7 +41,7 @@
         right: 24px;
         margin: auto;
         img{
-            margin-top: 36px;
+            margin-top: 64px;
         }
         small{
             display: block;

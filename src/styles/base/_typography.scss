@@ -5,3 +5,36 @@ section{
 h1, h2, h3{    
     @include opensans_bold;
 }
+
+h4{
+    @include opensans_bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+p{
+    margin: 24px auto;
+}
+
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    &::after{
+        content: "";
+        display: block;
+        height: 2px;
+        width: 50px;
+        background-color: $primary-color;
+        margin: 22px auto 30px;
+    }
+}
+
+.count{
+    font-size: 36px;
+    line-height: 36px;
+    small{
+        font-size: 16px;
+        opacity: .9;
+        vertical-align: top;
+    }
+}
