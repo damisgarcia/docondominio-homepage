@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="25.923685mm"
+   height="20.399586mm"
+   viewBox="0 0 91.855577 72.281996"
+   id="svg4161"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="white.svg">
+  <defs
+     id="defs4163" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.2779297"
+     inkscape:cx="55.388509"
+     inkscape:cy="47.036787"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5"
+     inkscape:window-width="1680"
+     inkscape:window-height="986"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4166">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-325.50078,-510.50694)">
+    <g
+       id="g5720"
+       transform="translate(298.24661,504.93637)"
+       style="fill:#ffffff;fill-opacity:1">
+      <path
+         style="line-height:normal;font-family:'Bitstream Vera Sans';-inkscape-font-specification:'Bitstream Vera Sans';text-indent:0;text-align:start;text-transform:none;block-progression:tb;overflow:visible;fill:#ffffff;fill-opacity:1;enable-background:accumulate"
+         d="m 77.695753,23.287109 c -5.884991,0 -10.864423,3.11971 -13.259288,7.53125 -1.274324,-0.77668 -2.750732,-1.34375 -4.408007,-1.34375 -4.20359,0 -7.557952,2.95115 -7.793358,6.625 -4.204424,1.34513 -7.264397,4.82085 -7.264397,9 0,5.32838 4.882792,9.65625 10.896595,9.65625 l 6.691357,0 0,-2 -6.691357,0 c -4.794479,0 -8.639695,-3.40863 -8.639695,-7.65625 0,-3.53637 2.690417,-6.51049 6.347531,-7.40625 l 0.846338,-0.1875 -0.03526,-0.8125 c -0.0056,-0.14001 0,-0.21218 0,-0.21875 0,-2.77751 2.506659,-5 5.64225,-5 1.567326,0 2.996452,0.55994 4.020103,1.46875 l 1.234242,1.125 0.599489,-1.46875 c 1.774612,-4.24987 6.388866,-7.3125 11.813461,-7.3125 6.963213,0 12.58927,4.98664 12.58927,11.15625 0,0.4551 -0.04068,0.90705 -0.105792,1.375 l -0.176321,1.125 1.269507,0 0.07053,0 c 4.315926,0 7.793357,3.08258 7.793357,6.90625 0,3.82367 -3.477262,6.90625 -7.793357,6.90625 l -7.537693,0 0,2 7.537693,0 c 5.535284,0 10.050259,-4.00192 10.050259,-8.90625 0,-4.55005 -3.940538,-8.16662 -8.921809,-8.6875 0.01772,-0.24107 0.07053,-0.4687 0.07053,-0.71875 0,-7.25038 -6.663317,-13.15625 -14.84617,-13.15625 z"
+         id="path4285-3"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path5711"
+         overflow="visible"
+         d="m 74.591585,36.229785 -0.4375,0.21875 -9,4.40625 -0.5625,0.28125 0,0.625 0,1.375 0,1.6875 2,-0.9375 0,-0.75 0,-0.75 8,-3.9375 8,3.9375 0,13.749999 -5,0 0,2 6,0 1,0 0,-1 0,-15.374999 0,-0.625 -0.5625,-0.28125 -9,-4.40625 -0.4375,-0.21875 z m -6,8 -0.4375,0.1875 -7,3.3125 -0.5625,0.25 0,0.65625 0,10.499999 0,1 1,0 14,0 1,0 0,-1 0,-10.499999 0,-0.65625 -0.5625,-0.25 -7,-3.3125 -0.4375,-0.1875 z m 0,2.21875 6,2.8125 0,8.874999 -12,0 0,-8.874999 6,-2.8125 z"
+         style="line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-transform:none;block-progression:tb;overflow:visible;fill:#ffffff;fill-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
