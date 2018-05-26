@@ -53,6 +53,13 @@
 
 @include media-breakpoint-down(sm) {
  .landpage-header{
+     height: 240px;
+     .title{
+         @include opensans_bold;
+         font-size: 24px;
+         padding: 0px 24px;
+         margin-top: 8px;
+     }
      .devices{
          display: none;
      }

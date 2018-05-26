@@ -7,21 +7,21 @@
           <h2 class="heading">Sobre</h2>
           <p>Reprehenderit dolore laboris incididunt occaecat consectetur tempor. Reprehenderit esse enim ipsum id enim nisi irure esse mollit fugiat ullamco culpa ex. Veniam quis laborum exercitation excepteur pariatur quis amet fugiat ullamco deserunt esse. Non nisi labore deserunt eiusmod veniam excepteur mollit occaecat commodo. Ullamco Lorem culpa sunt sint.</p>
           <div class="row">
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <h4>Our Vision</h4>
               <p>Incididunt adipisicing exercitation deserunt aliquip proident et dolore. Eu sit incididunt nulla exercitation proident laborum esse.</p>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <h4>Our Mission</h4>
               <p>Incididunt adipisicing exercitation deserunt aliquip proident et dolore.</p>
             </div>
           </div>
           <div class="row">
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <h4>Awards</h4>
               <p>Incididunt adipisicing exercitation deserunt aliquip proident et dolore.</p>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <h4>Perfection</h4>
               <p>Nulla reprehenderit minim excepteur qui et consequat qui.</p>
             </div>
@@ -34,15 +34,15 @@
         <div class="container">
           <h2 class="heading">Services</h2>
           <div class="row">
-            <div class="col">
+            <div class="col-md col-sm-12">
               <h4>Service 1</h4>
               <p>Fugiat officia irure elit eu in veniam est adipisicing ea cillum ipsum.</p>
             </div>
-            <div class="col">
+            <div class="col-md col-sm-12">
               <h4>Service 2</h4>
               <p>Fugiat officia irure elit eu in veniam est adipisicing ea cillum ipsum.</p>
             </div>
-            <div class="col">
+            <div class="col-md col-sm-12">
               <h4>Service 3</h4>
               <p>Fugiat officia irure elit eu in veniam est adipisicing ea cillum ipsum.</p>
             </div>
@@ -51,18 +51,18 @@
     </section>
     <section class="inverse green">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col">
+          <div class="row align-items-center counts">
+            <div class="col-md col-xs-12">
               <div class="count">
                 178 <small>Condomínios</small>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md col-xs-12">
               <div class="count">
                 2 mil <small>Moradores</small>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md col-xs-12">
               <div class="count">
                 60 <small>Parceiros e Serviços</small>
               </div>
