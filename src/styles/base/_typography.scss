@@ -3,7 +3,7 @@ section{
 }
 
 h1, h2, h3{    
-    @include opensans_bold;
+    @include opensans_regular;
 }
 
 h4{
@@ -55,5 +55,27 @@ p{
             display: block;
             font-size: 18px;
         }
+    }
+}
+
+section{
+    h3, p{
+        @include opensans_regular;
+        color: $seciton-title-color;
+        text-align: center;
+    }
+
+    p{
+        @include opensans_regular;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 36px;
+    }
+    
+    p{
+        font-size: 18px;
+        color: $seciton-text-color;
     }
 }

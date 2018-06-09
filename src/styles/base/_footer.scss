@@ -1,0 +1,56 @@
+footer{
+    background-color: #eeeeee;
+    color: transparentize($color: black, $amount: .35);
+    padding: 48px 48px;
+    .heading{
+        text-align: left;
+        color: black;
+        &::after{
+            margin: 22px 0px 30px;
+        }
+    }
+    .nav{
+        margin-bottom: 24px;
+    }
+    .nav .nav-link{
+        padding: 0.5rem 0;
+        color: transparentize($color: black, $amount: .35);
+    }
+    .contact-us{
+        .nav {
+            margin-bottom: 0px;
+            .nav-item{
+                margin: 0px 8px;
+                &:first-child{
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    footer{
+        .contact-us{
+            .nav {
+                flex-wrap: wrap;
+                margin-bottom: 16px;
+                padding-bottom: 16px;
+                border-bottom: 1px solid #ddd;
+                .nav-item{
+                    margin: 0px;
+                    width: 100%;
+                    &:first-child{
+                        margin-left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copyright{
+    background-color: #ddd;
+    color: transparentize($color: black, $amount: .35);
+    padding: 24px 0px;
+}

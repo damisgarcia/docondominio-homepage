@@ -10,18 +10,46 @@ body{
 }
 
 section{    
-    padding: 48px 48px;
+    padding: 148px 48px;
     &.inverse{
         background-color: #000000;
         padding: 48px 48px;
         color: white;
     }
-    .gray{
+    &.gray{
         background-color: gray;
     }
-    &.green{
-        padding: 24px 48px;
-        background-color: $primary-color;
+    &.blue{
+        padding: 48px 48px;
+        background-color: $seciton-text-color;
+    }
+    &.services{
+        p{
+            font-size: 14px;
+            text-align: left;
+            color: #f4f4f4;
+            margin: 0px auto;
+        }
+        .service{
+            margin: 32px 0px;
+        }
+        .icon{
+            font-size: 36px;
+        }
+    }
+    form{
+        margin: 24px 0px;
+        padding: 0px 64px;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    section {
+        padding: 92px 48px;
+        form{
+            margin: 24px 0px;
+            padding: 0px;
+        }
     }
 }
 
@@ -31,22 +59,3 @@ section{
  padding: 24px 24px;
 }
 
-footer{
-    background-color: #222;
-    color: transparentize($color: white, $amount: .35);
-    padding: 48px 48px;
-    .heading{
-        text-align: left;
-        color: white;
-        &::after{
-            margin: 22px 0px 30px;
-        }
-    }
-    .nav{
-        margin-bottom: 24px;
-    }
-    .nav .nav-link{
-        color: transparentize($color: white, $amount: .35);
-        padding: 0.5rem 0;
-    }
-}

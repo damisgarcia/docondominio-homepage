@@ -27,7 +27,7 @@
       <div class="container">
         <div class="row">
           <div class="col-4 col-xs-12 device-col">
-            <img class="img-fluid float-right device" :src="device" />
+            <img class="img-fluid device" :src="device" />
           </div>
           <div class="col">
             <div class="title">Comunicação Simples e Eficiente</div>
