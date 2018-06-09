@@ -29,47 +29,7 @@
         </div>
       </div>
     </div>
-    </section>
-    <section class="inverse">
-        <div class="container">
-          <h2 class="heading">Services</h2>
-          <div class="row">
-            <div class="col-md col-sm-12">
-              <h4>Service 1</h4>
-              <p>Fugiat officia irure elit eu in veniam est adipisicing ea cillum ipsum.</p>
-            </div>
-            <div class="col-md col-sm-12">
-              <h4>Service 2</h4>
-              <p>Fugiat officia irure elit eu in veniam est adipisicing ea cillum ipsum.</p>
-            </div>
-            <div class="col-md col-sm-12">
-              <h4>Service 3</h4>
-              <p>Fugiat officia irure elit eu in veniam est adipisicing ea cillum ipsum.</p>
-            </div>
-          </div>
-        </div>
-    </section>
-    <section class="inverse green">
-        <div class="container">
-          <div class="row align-items-center counts">
-            <div class="col-md col-xs-12">
-              <div class="count">
-                178 <small>Condomínios</small>
-              </div>
-            </div>
-            <div class="col-md col-xs-12">
-              <div class="count">
-                2 mil <small>Moradores</small>
-              </div>
-            </div>
-            <div class="col-md col-xs-12">
-              <div class="count">
-                60 <small>Parceiros e Serviços</small>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
+    </section>    
     <section class="gray">
       <div class="container">
         <h2 class="heading">Fale conosco</h2>

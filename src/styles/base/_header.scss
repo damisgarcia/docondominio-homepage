@@ -1,15 +1,21 @@
 .b-navigation{    
+    position: absolute;
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     width: 100%;
-    background: white;
-    min-height: 64px;    
+    background: transparent;
+    min-height: 64px;
+    z-index: 2;
     .nav{
         font-size: 14px;
         .nav-link {
+            // color: white;
             text-transform: uppercase;
             margin: auto 4px;
             &.active{
+                // color: white;
                 @include opensans_bold;
             }
         }
@@ -18,47 +24,67 @@
 
 .landpage-header{
     @include opensans_light; 
-    background-size: cover;
-    background-position: center center;   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
     position: relative;
-    height: 420px;
+    background-size: 85%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: flex;    
+    height: 520px;
     color: white;
-    padding: 48px 8px;
+    padding: 86px 8px 48px;
     user-select: none;
     .title{
-        font-size: 36px;
-        text-align: center;
-        margin-top: 72px;
+        font-size: 48px;
+        margin-top: 86px;    
     }
-    .devices{
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 24px;
-        margin: auto;
-        img{
+    .subtitle{
+        font-size: 21px;
+        color: #f4f4f4;
+        b{
+            @include opensans_bold;
+        }
+    }
+    .device{
+        max-width: 90%;
+        margin-top: 0px;
+        margin-right: -16px;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .landpage-header{
+        background-size: cover;
+        height: 360px;
+        .title{
+            font-size: 32px;
             margin-top: 64px;
         }
-        small{
-            display: block;
-            margin-top: -24px;
-            text-shadow: 0px 0px 5px transparentize($color: #000000, $amount: 0.5);
+        .subtitle{
+            font-size: 16px;
         }
-    }
+        .device{
+            max-width: 85%;
+            margin-top: -24px;
+        }
+    }    
 }
 
 @include media-breakpoint-down(sm) {
  .landpage-header{
+     background-size: cover;
      height: 240px;
+     .device-col{
+         display: none;
+     }
      .title{
-         @include opensans_bold;
          font-size: 24px;
          padding: 0px 24px;
          margin-top: 8px;
+         text-align: center;
+     }
+     .subtitle{
+         font-size: 14px;
+         margin: 8px 0px;
      }
      .devices{
          display: none;
