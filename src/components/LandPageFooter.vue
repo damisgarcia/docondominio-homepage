@@ -30,7 +30,7 @@
                             <b-nav-item>Termo de Uso</b-nav-item>
                             <b-nav-item>Politica de Privacidade</b-nav-item>
                         </b-nav>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </footer>

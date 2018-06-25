@@ -34,7 +34,7 @@
             <div class="subtitle"><b>DoCondomínio</b> é uma plataforma de comunicação com um serviço <b>transparente, inteligente</b> e <b>intuitivo</b> para restabelecer a administração do seu condomínio de forma <b>eficaz</b> e <b>proativa</b>. Experimente!</div>
           </div>
         </div>
-      </div>      
+      </div>
     </div>
   </div>
 </template>
